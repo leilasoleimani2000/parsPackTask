@@ -1,0 +1,32 @@
+.map-container {
+    width: 100%;
+    height: 300px;
+}
+.mainContainer {
+    height: 100vh;
+    background-color: #89c1c1;
+    .header {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .userGrid {
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px auto;
+    }
+
+    .actionBtn {
+        background-color: #1890ff;
+        border: none;
+        padding: 5px 10px;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+}
+
